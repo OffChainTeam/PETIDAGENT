@@ -1,0 +1,28 @@
+{
+  "name": "petid-contracts",
+  "version": "1.0.0",
+  "description": "PetID Web3 Smart Contracts for Syscoin NEVM",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "node --check hardhat.config.js && node --check scripts/deploy.js && node --check scripts/deploy-zksync.js",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network testnet",
+    "deploy:zksys": "hardhat run scripts/deploy.js --network zksys",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network mainnet",
+    "verify": "hardhat verify --network testnet",
+    "node": "hardhat node",
+    "update-abis": "node -e \"console.log('ABI sync omitted in UNIFICADO')\""
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync": "^1.6.2",
+    "@matterlabs/hardhat-zksync-deploy": "^1.8.0",
+    "@matterlabs/hardhat-zksync-solc": "^1.5.1",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^17.2.3",
+    "hardhat": "^2.22.6",
+    "zksync-ethers": "^6.21.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}

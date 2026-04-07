@@ -1,0 +1,34 @@
+{
+  "testnet": {
+    "network": "testnet",
+    "chainId": 5700,
+    "contracts": {
+      "PetRegistry": "0x7089AE6EbCD65E8f670eC5BE5cc678cEecd51C4F"
+    },
+    "deployer": "0x8fAbF833fA0D8B693DAa033342F3Ff0FA94639fD",
+    "treasury": "0x8fAbF833fA0D8B693DAa033342F3Ff0FA94639fD",
+    "deploymentBlock": 843489,
+    "deployedAt": "2026-01-30T21:43:32.614Z"
+  },
+  "zksys": {
+    "network": "zksys",
+    "chainId": 57042,
+    "contracts": {
+      "PetRegistry": "0x7168dC9Ed3e3ba2c0Fa4f325D5c960b242232d3F"
+    },
+    "deployer": "0xA15A0911f9A3dC7A3ef47F61e1783dB27ba259Ff",
+    "treasury": "0xA15A0911f9A3dC7A3ef47F61e1783dB27ba259Ff",
+    "deploymentBlock": 759,
+    "deployedAt": "2026-03-15T15:04:18.411Z"
+  },
+  "zksystestnet": {
+    "network": "zksystestnet",
+    "chainId": 57057,
+    "contracts": {
+      "PetRegistry": "0x7Ff5e0f9c8bb86422D5d1a6560b8cD67e8d99289"
+    },
+    "deployer": "0xA15A0911f9A3dC7A3ef47F61e1783dB27ba259Ff",
+    "treasury": "0xA15A0911f9A3dC7A3ef47F61e1783dB27ba259Ff",
+    "deployedAt": "2026-03-25T16:10:20.768Z"
+  }
+}

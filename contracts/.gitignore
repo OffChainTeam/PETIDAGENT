@@ -1,0 +1,5 @@
+node_modules/
+cache/
+artifacts/
+.env
+# deployments.json - Ahora se sube a Git (solo tiene direcciones públicas)

@@ -1,0 +1,24 @@
+{
+  "name": "petid-backend",
+  "version": "1.0.0",
+  "description": "PetID Web3 - Backend API con indexador blockchain",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo 'No build step needed'",
+    "test": "node --check src/index.js && node --check src/indexer.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "express": "^4.21.1",
+    "@supabase/supabase-js": "^2.49.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.7"
+  },
+  "license": "MIT"
+}
